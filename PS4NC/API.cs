@@ -362,6 +362,8 @@ namespace PS4NC
             string currentRangeName = "";
 
             ranges.Clear();
+            rangeList.Rows.Clear();
+            rangeList.Refresh();
 
             for (int i = 0; i < pi.entries.Length; i++)
             {
